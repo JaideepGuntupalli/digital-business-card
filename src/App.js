@@ -1,22 +1,15 @@
-import headshot from "./assets/Jaideep-headshot.png";
+import Info from "./components/Info";
+import About from "./components/About";
+import Interests from "./components/Interests";
+import Footer from "./components/Footer";
 
 export default function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <img src={headshot} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-            </header>
+        <div className="w-80 my-8 bg-[#1A1B21] rounded-lg">
+            <Info />
+            <About />
+            <Interests />
+            <Footer />
         </div>
     );
 }
