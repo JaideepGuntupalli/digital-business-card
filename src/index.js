@@ -4,12 +4,8 @@ import "./index.css";
 import App from "./App";
 
 ReactDOM.render(
-    <React.StrictMode>
+    <div className="bg-[#23252C] w-screen flex flex-col items-center justify-center">
         <App />
-    </React.StrictMode>,
+    </div>,
     document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
