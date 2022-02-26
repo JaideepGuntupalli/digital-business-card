@@ -17,7 +17,7 @@ This is the code base of my [Digital Business Card](https://digital-business-car
 
 ### What is the project?
 
-This is my attempt at making a digital business card using ReactJS.
+This was my attempt at making a digital business card using ReactJS.
 
 ### When will the project be complete?
 
